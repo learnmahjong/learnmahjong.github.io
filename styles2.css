@@ -1,0 +1,167 @@
+main {
+  margin: 1vh;
+  padding-top: 20vw;
+}
+body {
+  margin: 0;
+
+  background-color: bisque;
+}
+p,
+h1,
+h2,
+h4 {
+  direction: rtl;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4,
+span {
+  color: brown;
+}
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3.5vh;
+}
+h2 {
+  font-size: 3vh;
+}
+table {
+  border-collapse: collapse;
+
+  background-color: rgb(19, 184, 143);
+}
+#logo {
+  height: 11vh;
+  width: 11vh;
+}
+td {
+  direction: rtl;
+  height: 2em;
+  border: 1px solid black;
+  padding-right: 10px;
+}
+.table2 {
+  margin-top: 30px;
+}
+strong {
+  font-size: 20px;
+}
+.translate {
+  width: 10vh;
+  height: 4.5vh;
+  margin-left: 0.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  color: wheat;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid black 1px;
+  font-size: 2vh;
+  font-size-adjust: 0.6;
+  border-radius: 20vh;
+  text-align: center;
+}
+
+.translate:hover {
+  background-color: rgb(44, 42, 42);
+  transition: ease 0.35s;
+  color: white;
+}
+
+tr td:nth-child(3) {
+  width: 500vw;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+  background-color: rgb(56, 194, 175);
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.numbers {
+  font-size: 3vh;
+  color: black;
+}
+
+.help {
+  height: 3vh;
+  width: 3vh;
+}
+tr td:nth-child(2) {
+  padding: 0.8vh;
+}
+
+tr td:nth-child(1) {
+  background-color: bisque;
+  border: bisque solid;
+  padding: 0vw;
+}
+.helpbutton {
+  background-color: bisque;
+  border: transparent;
+  width: 1vw;
+  margin-left: 2.5vw;
+}
+
+.helpbutton {
+  cursor: pointer;
+}
+div {
+  position: relative;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen,
+.fourteen,
+.fifteen,
+.sixteen,
+.seventeen,
+.eighteen {
+  display: none;
+  position: absolute;
+  left: 1vh;
+  bottom: -4vh;
+  height: 17vw;
+  width: 90vw;
+}
+.eight {
+  display: none;
+  position: absolute;
+  left: 4vh;
+  bottom: -4vh;
+  height: 30vw;
+  width: 90vw;
+}
+
+.tiles {
+  display: none;
+  position: absolute;
+  right: -1vw;
+  width: 101vw;
+}
+
+#logobutton {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
