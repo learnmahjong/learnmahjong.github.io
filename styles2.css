@@ -66,6 +66,8 @@ strong {
   font-size-adjust: 0.6;
   border-radius: 20vh;
   text-align: center;
+    margin-right: -2vw;
+  margin-left: 2vw;
 }
 
 .translate:hover {
