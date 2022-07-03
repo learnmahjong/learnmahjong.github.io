@@ -147,11 +147,13 @@ div {
 .eight {
   display: none;
   position: absolute;
-  left: 4vh;
-  bottom: -4vh;
-  height: 30vw;
+  left: 1vh;
+  bottom: -5vh;
+  height: 26vw;
   width: 90vw;
 }
+
+footer {margin-top: 20vw;}
 
 .tiles {
   display: none;
